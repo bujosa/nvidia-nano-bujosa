@@ -2,6 +2,8 @@
 
 Configuration, scripts, and documentation for a **NVIDIA Jetson Orin Nano Super** device running AI workloads 24/7.
 
+> **This is a fully remote/headless setup.** The Jetson runs without a monitor, keyboard, or mouse. Everything is managed via **SSH** from another device on the same network (Mac, Windows, or Linux). No GUI is needed — all configuration, deployment, and monitoring is done through the terminal.
+
 ## Device Specs
 
 | Component | Spec |

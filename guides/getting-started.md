@@ -2,13 +2,17 @@
 
 Complete guide to set up your NVIDIA Jetson Orin Nano Super from scratch for AI workloads.
 
+> **This is a fully remote setup.** After the initial flash and boot, everything is done via SSH from another computer. The Jetson runs headless (no monitor/keyboard) — you manage it entirely from your Mac, Windows, or Linux machine over the network.
+
 ## Prerequisites
 
 - NVIDIA Jetson Orin Nano Super Developer Kit
 - MicroSD card (64GB+ recommended) or NVMe SSD
 - USB-C power supply (included)
 - Ethernet cable or WiFi connection
-- Another computer (Mac/Linux/Windows) for SSH access
+- **Another computer on the same network** (Mac, Windows, or Linux) to SSH into the Jetson
+- SSH client (`ssh` on Mac/Linux, PuTTY or Windows Terminal on Windows)
+- `sshpass` (optional, for automated scripts: `brew install hudochenkov/sshpass/sshpass` on Mac)
 
 ## Step 1: Flash JetPack 6
 
